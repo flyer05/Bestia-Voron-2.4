@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.jpg" alt="Voron 2.4 Beštia Banner" width="100%">
+</p>
 # Voron 2.4 "Beštia" - 48V High-Performance Edition 🐉
 
 This repository documents my highly modified **Voron 2.4 R2** build, nicknamed **"Beštia"** (The Beast). This machine is engineered for extreme speeds, maximum rigidity, and smart environmental monitoring.
