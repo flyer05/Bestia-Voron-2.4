@@ -1,3 +1,47 @@
+# Voron 2.4 "Beštia" - 48V High-Performance Edition 🐉
+
+This repository documents my highly modified **Voron 2.4 R2** build, nicknamed **"Beštia"** (The Beast). This machine is engineered for extreme speeds, maximum rigidity, and smart environmental monitoring.
+
+## 🚀 Key Specifications
+
+### Power & Control
+* **Controller:** BTT Manta M8P V2 (32-bit)
+* **Compute Module:** BTT CB2
+* **Voltage:** 48V System for high-speed performance
+* **Stepper Drivers:** BTT TMC5160T Pro (High-voltage)
+* **Motors:** LDO Motor Kit V7 (High-temp/High-torque)
+* **Communication:** BTT SB2240 CAN Bus via Stealthburner
+
+### Motion & Mechanics
+* **Gantry:** Funsorr Metal CNC X-Beam (Ultra Light version)
+* **Reinforcements:** Titanium Frame Backers for improved resonance management
+* **X-Axis:** All-metal CNC idlers and mounts
+* **Linear Rails:** Turui Rust-proof 350mm (High durability)
+* **Z-Probe:** CNC ChaoticLab Tap Sensor V2
+
+### Smart Features & Sensors
+* **UI:** BTT KNOMI 2 (Stealthburner integrated) & BTT 7" HDMI Touchscreen
+* **Environmental:** SGP Sensors for VOC/Air quality monitoring
+* **Filament:** BTT Smart Filament Sensor
+* **Cooling:** 4x high-airflow fans for electronics bay cooling
+
+## 🎨 Aesthetics & Lighting
+* **Colorway:** Classic Black & Red (Voron Theme)
+* **Enclosure:** BTT CNC ChaoticLab Door Kit
+* **Lighting:** 2x 270mm WS2812B-RGB Light Bars (Addressable)
+
+## 🔧 Project Goals
+* Utilize **48V** architecture for extreme accelerations.
+* Minimize gantry weight using the **Funsorr CNC beam** while maintaining rigidity with **Titanium backers**.
+* Implement full VOC monitoring and smart safety macros via the **SGP sensors**.
+
+---
+*Built for speed. Engineered for precision. Known as Beštia.*
+
+--
+
+##Slovenská verzia
+
 # Voron 2.4 350mm "Beštia" 48V Edition 🐉
 
 Tento repozitár obsahuje konfiguráciu a dokumentáciu pre vysoko modifikovanú 3D tlačiareň **Voron 2.4 R2**. Cieľom tohto buildu je dosiahnutie maximálnej rýchlosti, tuhosti a inteligentného monitorovania tlače pomocou špičkových komponentov a 48V architektúry.
