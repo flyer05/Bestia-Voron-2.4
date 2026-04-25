@@ -1,6 +1,14 @@
 <p align="center">
   <img src="banner.jpg" alt="Voron 2.4 Beštia Banner" width="100%">
 </p>
+
+# Voron 2.4 "Beštia" - 48V High-Performance Build 🐉
+
+[English version](#english) | [Slovenská verzia](#slovenská-verzia)
+
+---
+
+## English
 # Voron 2.4 "Beštia" - 48V High-Performance Edition 🐉
 
 This repository documents my highly modified **Voron 2.4 R2** build, nicknamed **"Beštia"** (The Beast). This machine is engineered for extreme speeds, maximum rigidity, and smart environmental monitoring.
@@ -43,8 +51,7 @@ This repository documents my highly modified **Voron 2.4 R2** build, nicknamed *
 
 --
 
-##Slovenská verzia
-
+## Slovenská verzia
 # Voron 2.4 350mm "Beštia" 48V Edition 🐉
 
 Tento repozitár obsahuje konfiguráciu a dokumentáciu pre vysoko modifikovanú 3D tlačiareň **Voron 2.4 R2**. Cieľom tohto buildu je dosiahnutie maximálnej rýchlosti, tuhosti a inteligentného monitorovania tlače pomocou špičkových komponentov a 48V architektúry.
@@ -78,12 +85,6 @@ Tento repozitár obsahuje konfiguráciu a dokumentáciu pre vysoko modifikovanú
 * **Farebná schéma:** Červeno-čierna klasika (Red/Black Voron theme)
 * **Osvetlenie:** 2x 270mm WS2812B-RGB Light Bar (adresovateľné LED pásiky)
 * **Status monitor:** KNOMI 2 animácie integrované v Stealthburneri
-
-## 🧪 Používané materiály (Testovacie vzorky)
-Pre kalibráciu a bežnú prevádzku sú aktuálne overené nasledovné materiály:
-* **Creality CR-PLA Black** (vynikajúca pre testy tuhosti)
-* **eSUN ePLA+HS** (vysokorýchlostné PLA)
-* **Plasty Mladeč (Biela PLA)**
 
 ## 🔧 Klipper Konfigurácia (Hlavné črty)
 * Využitie **48V** pre extrémne zrýchlenia bez straty krútiaceho momentu.
