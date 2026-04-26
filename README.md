@@ -2,6 +2,19 @@
   <img src="banner.jpg" alt="Voron 2.4 Beštia Banner" width="100%">
 </p>
 
+<p align="center">
+  <b><a href="#english">English</a></b> | 
+  <b><a href="#slovenská-verzia">Slovenská verzia</a></b>
+</p>
+
+<p align="center">
+  <a href="./MODS.md">🛠️ MODS</a> • 
+  <a href="./CHRONICLE.md">📖 CHRONICLE</a> • 
+  <a href="./GUIDE.md">📘 GUIDE</a> • 
+  <a href="https://github.com/flyer05/Bestia-Voron-2.4/tree/main/Configs">📁 CONFIGS</a>
+</p>
+
+---
 # Voron 2.4 "Beštia" - 48V High-Performance Build 🐉
 
 [English version](#english) | [Slovenská verzia](#slovenská-verzia)
