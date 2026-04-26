@@ -13,6 +13,7 @@
   <a href="./CHRONICLE.md">📖 CHRONICLE</a> • 
   <a href="./GUIDE.md">📘 GUIDE</a> • 
   <a href="https://github.com/flyer05/Bestia-Voron-2.4/tree/main/Configs">📁 CONFIGS</a>
+  <a href="./LICENSE">⚖️ LICENSE</a>
 </p>
 
 ---
