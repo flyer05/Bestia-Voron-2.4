@@ -14,13 +14,15 @@ Všetko to začalo s **Ender 3 V2**. Tento stroj bol pre mňa vstupnou bránou d
 ### 🐧 Prechod na Klipper a Voron 0.2
 Keď mi možnosti Marlinu prestali stačiť, prešiel som na **Klipper**. Táto zmena bola zlomová a logicky vyústila do stavby môjho prvého Voronu – modelu **0.2**. Už pri "nulkovej" verzii som odmietol cestu predpripravených stavebníc (kitov). Každý jeden diel som si objednával samostatne a precízne vyberal podľa kvality a recenzií.
 
-### 🐉 Projekt Beštia (Voron 2.4)
-Po skúsenostiach s Voron 0.2 som vedel, že môj ďalší stroj – **Voron 2.4** – musí byť niečo výnimočné. Nechcel som postaviť len ďalší štandardný Voron. Rozhodol som sa postaviť **Beštiu**.
+### 🐉 Projekt Beštia (Voron 2.4): Cesta trpezlivosti
+Po skúsenostiach s Voron 0.2 som vedel, že môj ďalší stroj musí byť výnimočný. Pravdou však je, že projekt **Beštia** začal v mojej hlave oveľa skôr. Prvé komponenty som začal nakupovať ešte predtým, než som sa vôbec rozhodol postaviť "nulkul" (Voron 0.2).
 
-Zvolil som cestu **vlastného výberu dielov (self-source)**, čo mi umožnilo integrovať:
-* **48V architektúru** pre nevídanú dynamiku.
-* **Titánové a CNC komponenty** pre extrémnu tuhosť.
-* **Pokročilé senzory**, ktoré bežné tlačiarne nemajú.
+Boli to **dva roky precízneho plánovania**. Kým vznikal a tlačil Voron 0.2, Beštia už mala svoju podobu v podobe základného rámu, ktorý mi ležal na stole. Nikam som sa neponáhľal. Postupne, mesiac po mesiaci, som dokupoval tie najlepšie diely, ktoré trh ponúkal, a pripravoval jednotlivé podzostavy. 
+
+Nechcel som postaviť len ďalší štandardný Voron zo stavebnice. Rozhodol som sa pre cestu **self-source**, čo mi umožnilo integrovať:
+* **48V architektúru** pre nevídanú dynamiku (na ktorú som vyberal komponenty už od začiatku).
+* **Titánové a CNC komponenty** pre extrémnu tuhosť, ktoré som zháňal z rôznych kútov sveta.
+* **Pokročilé senzory**, ktoré dnes v komerčných strojoch nenájdete.
 
 Výsledkom je stroj, ktorý hravo prekonáva dnešnú špičku uzavretých komerčných tlačiarní. Beštia je dôkazom toho, že keď spojíte precízny výber dielov s odladeným kódom, hranice neexistujú.
 
@@ -36,12 +38,13 @@ It all started with an **Ender 3 V2**. This machine was my gateway into the worl
 ### 🐧 Transition to Klipper and Voron 0.2
 When Marlin's capabilities were no longer enough, I switched to **Klipper**. This shift was a turning point and led directly to building my first Voron – the **0.2**. Even back then, I rejected pre-packaged kits. I sourced every single part individually, precisely selecting each based on quality and reviews.
 
-### 🐉 Project Beštia (Voron 2.4)
-After the experience with Voron 0.2, I knew my next machine – the **Voron 2.4** – had to be something special. I didn't want to build just another standard Voron. I decided to build **Beštia** (The Beast).
+### 🐉 Project Beštia (Voron 2.4): A Journey of Patience
+The truth is, the **Beštia** project began in my mind much earlier than most would think. I started purchasing the first components even before I decided to build the "zero" (Voron 0.2).
 
-By choosing the **self-source** path, I was able to integrate:
-* **48V architecture** for unprecedented dynamics.
-* **Titanium and CNC components** for extreme rigidity.
-* **Advanced sensors** that standard printers lack.
+It has been **two years of meticulous planning**. While the Voron 0.2 was being built and put to work, Beštia already existed as a frame on my workbench. I was in no rush. Month by month, I sourced the absolute best parts available on the market, carefully assembling and preparing each sub-section.
 
+I didn't want to build just another kit-based Voron. I chose the **self-source** path to integrate:
+* **48V architecture** for unprecedented dynamics (sourced from the very beginning).
+* **Titanium and CNC components** for extreme rigidity, gathered from all over the world.
+* **Advanced sensors** that you won't find in today's commercial printers.
 The result is a machine that easily outperforms today's top commercial high-end printers. Beštia is proof that when you combine precise part selection with fine-tuned code, there are no limits.
