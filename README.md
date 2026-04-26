@@ -6,6 +6,7 @@
 
 [English version](#english) | [Slovenská verzia](#slovenská-verzia)
 
+👉 [Podrobný zoznam modifikácií / Detailed MODS list](./MODS.md)
 ---
 
 ## English
