@@ -15,9 +15,6 @@
 </p>
 
 ---
-# Voron 2.4 "Beštia" - 48V High-Performance Build 🐉
-
----
 
 ## English
 # Voron 2.4 "Beštia" - 48V High-Performance Edition 🐉
@@ -63,7 +60,7 @@ This repository documents my highly modified **Voron 2.4 R2** build, nicknamed *
 --
 
 ## Slovenská verzia
-# Voron 2.4 350mm "Beštia" 48V Edition 🐉
+# Voron 2.4 350mm "Beštia" 48V Verzia 🐉
 
 Tento repozitár obsahuje konfiguráciu a dokumentáciu pre vysoko modifikovanú 3D tlačiareň **Voron 2.4 R2**. Cieľom tohto buildu je dosiahnutie maximálnej rýchlosti, tuhosti a inteligentného monitorovania tlače pomocou špičkových komponentov a 48V architektúry.
 
