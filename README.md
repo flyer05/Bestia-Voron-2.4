@@ -8,6 +8,7 @@
 </p>
 
 <p align="center">
+  <a href="./STORY.md">👤 MY JOURNEY</a> •
   <a href="./MODS.md">🛠️ MODS</a> • 
   <a href="./CHRONICLE.md">📖 CHRONICLE</a> • 
   <a href="./GUIDE.md">📘 GUIDE</a> • 
