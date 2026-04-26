@@ -4,7 +4,8 @@
 
 ---
 
-> 📖 **Poznámka autora / Author's Note:** > Tento návod je skrátenou ukážkou z pripravovanej komplexnej knihy o stavbe a ladení high-performance Voron tlačiarní. Celá publikácia sa bude venovať detailom od mechaniky až po pokročilé 48V konfigurácie.  
+> 📖 **PRIPRAVOVANÁ KNIHA / UPCOMING BOOK:** > **KÓD, PLAST A SLOBODA: KOMPLETNÝ MANUÁL OPEN-SOURCE 3D TLAČE** > *(Podtitul: Ako si postaviť, oživiť a ovládnuť Voron v roku 2026)* >
+> Táto kapitola je skrátenou ukážkou z pripravovanej knihy.  
 > *© 2026 FLYER 05. Všetky práva vyhradené.*
 
 ---
@@ -41,15 +42,12 @@ For maximum stability of the "Beštia" build, I decided to bypass the SD card an
 1. **BOOT Mode:** Hold the "Boot" button on the module (or set the correct jumper on the Manta board) and connect to your PC.
 2. **Detection:** RKDevTool should display "Found One LOADER Device".
 3. **Writing:** Select the image file and click "Upgrade".
-4. **Finalization:** Once finished, disconnect the cable, remove the jumper, and reboot. The system now boots instantly from eMMC.
+4. **Finalization:** Once finished, disconnect the cable, remove the jumper, and reboot.
 
 ---
 
-## 📚 Chcete sa dozvedieť viac? / Want to learn more?
+## 📚 Viac informácií o knihe
 
-Tento návod pokrýva len základy. V pripravovanej knihe nájdete:
-* Detailné riešenie problémov pri flashovaní.
-* Optimalizáciu Linuxu pre Klipper.
-* Kompletný postup slovenskej lokalizácie cez KlipperScreen.
+Kniha **„KÓD, PLAST A SLOBODA“** vás prevedie kompletným procesom stavby moderného Voronu. Od výberu skrutiek až po pokročilé 48V architektúry a slovenské lokalizácie softvéru.
 
-**Sledujte tento repozitár pre informácie o vydaní! / Follow this repo for release updates!**
+**Sledujte tento repozitár pre informácie o možnostiach predobjednávky!**
