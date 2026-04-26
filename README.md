@@ -17,9 +17,6 @@
 ---
 # Voron 2.4 "Beštia" - 48V High-Performance Build 🐉
 
-[English version](#english) | [Slovenská verzia](#slovenská-verzia)
-
-👉 [Podrobný zoznam modifikácií / Detailed MODS list](./MODS.md)
 ---
 
 ## English
