@@ -15,7 +15,7 @@ Všetko to začalo s **Ender 3 V2**. Tento stroj bol pre mňa vstupnou bránou d
 Keď mi možnosti Marlinu prestali stačiť, prešiel som na **Klipper**. Táto zmena bola zlomová a logicky vyústila do stavby môjho prvého Voronu – modelu **0.2**. Už pri "nulkovej" verzii som odmietol cestu predpripravených stavebníc (kitov). Každý jeden diel som si objednával samostatne a precízne vyberal podľa kvality a recenzií.
 
 ### 🐉 Projekt Beštia (Voron 2.4): Cesta trpezlivosti
-Po skúsenostiach s Voron 0.2 som vedel, že môj ďalší stroj musí byť výnimočný. Pravdou však je, že projekt **Beštia** začal v mojej hlave oveľa skôr. Prvé komponenty som začal nakupovať ešte predtým, než som sa vôbec rozhodol postaviť "nulkul" (Voron 0.2).
+Po skúsenostiach s Voron 0.2 som vedel, že môj ďalší stroj musí byť výnimočný. Pravdou však je, že projekt **Beštia** začal v mojej hlave oveľa skôr. Prvé komponenty som začal nakupovať ešte predtým, než som sa vôbec rozhodol postaviť "nulku" (Voron 0.2).
 
 Boli to **dva roky precízneho plánovania**. Kým vznikal a tlačil Voron 0.2, Beštia už mala svoju podobu v podobe základného rámu, ktorý mi ležal na stole. Nikam som sa neponáhľal. Postupne, mesiac po mesiaci, som dokupoval tie najlepšie diely, ktoré trh ponúkal, a pripravoval jednotlivé podzostavy. 
 
