@@ -16,9 +16,6 @@ Rozhodol som sa neísť cestou štandardu.
 * Inštalácia **Funsorr CNC Ultra Light X-Beam** výrazne znížila hmotnosť osi X.
 * Pridanie **titánových výstuh (Backers)** zabezpečilo, že sa gantry nebude pri nahrievaní deformovať.
 
-Tu je kompletný blok kódu v Markdown formáte, ktorý môžeš rovno skopírovať a vložiť do svojho súboru CHRONICLE.md.
-Markdown
-
 ### ⚡ Fáza 3: Srdce Beštie (48V Power & Software)
 Toto je technicky najnáročnejšia časť celého projektu. Vyžaduje si precízne plánovanie nielen v kabeláži, ale aj v softvérovej príprave.
 
