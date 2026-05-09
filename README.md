@@ -57,7 +57,7 @@ This repository documents my highly modified **Voron 2.4 R2** build, nicknamed *
 * Implement full VOC monitoring and smart safety macros via the **SGP sensors**.
 
 ---
-*Built for speed. Engineered for precision. Known as Beštia.*
+*Built for speed. Engineered for precision. Known as Beštia (Beast).*
 
 --
 
