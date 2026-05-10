@@ -1,0 +1,13 @@
+[gcode_macro LOAD_FILAMENT]
+gcode:
+   M83                            # Relatívny extruder
+   G1 E50 F300                    # Rýchle zavedenie
+   G1 E50 F150                    # Pomalé dotlačenie
+   M82
+
+[gcode_macro UNLOAD_FILAMENT]
+gcode:
+   M83
+   G1 E10 F300                    # Trochu dotlačiť (proti upchatiu)
+   G1 E-100 F1000                 # Rýchlo vytiahnuť
+   M82
