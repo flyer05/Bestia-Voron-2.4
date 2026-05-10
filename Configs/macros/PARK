@@ -1,0 +1,9 @@
+[gcode_macro PARK_FRONT]
+gcode:
+    G90
+    G1 X175 Y10 Z50 F6000
+
+[gcode_macro PARK_CENTER]
+gcode:
+    G90
+    G1 X175 Y175 Z50 F6000
