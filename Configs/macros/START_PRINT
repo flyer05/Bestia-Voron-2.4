@@ -1,0 +1,27 @@
+[gcode_macro START_PRINT]
+gcode:
+    {% set BED_TEMP = params.BED|default(60)|float %}
+    {% set EXTRUDER_TEMP = params.EXTRUDER|default(200)|float %}
+
+    # 1. Nastavenie teplôt (bez čakania)
+    M140 S{BED_TEMP}
+    M104 S150             # Nahreje trysku na "bezpečných" 150°C pre TAP (aby sa nepretlačilo PEI)
+
+    # 2. Homing a vyrovnanie (Home musí byť prvý)
+    G28
+    QUAD_GANTRY_LEVEL
+    G28 Z                 # Znovu zmeraj Z po vyrovnaní gantry
+
+    # 3. Čakanie na finálne teploty
+    M190 S{BED_TEMP}      # Počkaj na podložku
+    M109 S{EXTRUDER_TEMP} # Počkaj na trysku
+
+    # 4. "Primat" (čistiaca čiara)
+    G90
+    G1 Z2.0 F3000
+    G1 X5 Y5 Z0.3 F5000.0
+    G1 X200.0 Y5 Z0.3 F1500.0 E15
+    G1 X200.0 Y5.4 Z0.3 F5000.0
+    G1 X5 Y5.4 Z0.3 F1500.0 E30
+    G92 E0                # Reset extrudera
+    G1 Z2.0 F3000
