@@ -1,0 +1,5 @@
+[gcode_macro M600]
+gcode:
+    PAUSE
+    UNLOAD_FILAMENT
+    {action_respond_info("Vymeň filament a stlač RESUME")}
