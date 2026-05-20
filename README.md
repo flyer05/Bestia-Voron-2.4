@@ -38,7 +38,7 @@ This repository documents my highly modified **Voron 2.4 R2** build, nicknamed *
 * **Reinforcements:** Titanium Frame Backers for improved resonance management
 * **X-Axis:** All-metal CNC idlers and mounts
 * **Linear Rails:** Turui Rust-proof 350mm (High durability)
-* **Z-Probe:** CNC ChaoticLab Tap Sensor V2
+**Z-Probe:** ~~CNC ChaoticLab Tap Sensor V2~~ -> Cartographer V4
 
 ### Smart Features & Sensors
 * **UI:** BTT KNOMI 2 (Stealthburner integrated) & BTT 7" HDMI Touchscreen
@@ -83,7 +83,7 @@ Tento repozitár obsahuje konfiguráciu a dokumentáciu pre vysoko modifikovanú
 * **X-os:** All-metal CNC idlers & držiaky
 * **Lineárne vedenie:** Turui Linear Guides (Rust proof 350mm verzia)
 * **Dvere:** BTT CNC ChaoticLab Door Kit
-* **Senzor podložky:** CNC ChaoticLab Tap Sensor V2
+* **Senzor podložky:** ~~CNC ChaoticLab Tap Sensor V2~~ -> Nahradený s Cartographer V4
 
 ### Toolhead a Senzory
 * **Printhead:** Stealthburner s BTT KNOMI 2 (interaktívne UI)
