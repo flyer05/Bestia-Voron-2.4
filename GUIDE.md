@@ -1,4 +1,4 @@
-# 📘 Beštia Guide: System Setup & eMMC Flashing
+# 📘 Beštia Guide: System Setup, eMMC & Boot Screen
 
 [Slovenská verzia](#slovenská-verzia) | [English Version](#english)
 
@@ -26,6 +26,11 @@ Pre maximálnu stabilitu "Beštie" som sa rozhodol nepoužívať SD kartu, ale n
 3. **Zápis:** Vyberte správny image a spustite proces "Upgrade".
 4. **Finalizácia:** Po úspešnom zápise odpojte kábel, vyberte jumper a reštartujte. Systém teraz beží bleskovo priamo z vnútornej pamäte.
 
+### 🖥️ Vlastná Bootovacia Obrazovka (Armbian)
+Štandardný štartovací proces Armbianu je plný textových výpisov jadra a obrázkov tučniakov. Pre čistý a profesionálny vzhľad "Beštie" som si systém upravil tak, aby počas bootovania zobrazoval len moje vlastné logo (splash screen). Keďže CB2 nevyužíva klasický `/boot/config.txt` ako Raspberry Pi, postup je odlišný.
+
+Celý postup čistenia U-Boot výpisov (úprava `armbianEnv.txt`) a nasadenia loga cez nástroj `fbi` som spísal do detailného dokumentu:
+👉 **[Stiahnuť: Kompletný návod na zmenu bootovacieho loga (PDF)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
 ---
 
 ## English: Flashing BTT CB2 to Internal eMMC
@@ -44,6 +49,11 @@ For maximum stability of the "Beštia" build, I decided to bypass the SD card an
 3. **Writing:** Select the image file and click "Upgrade".
 4. **Finalization:** Once finished, disconnect the cable, remove the jumper, and reboot.
 
+### 🖥️ Custom Boot Screen (Armbian)
+The standard Armbian boot process is cluttered with kernel logs and Tux penguins. To achieve a clean, professional look for "Beštia," I configured a custom splash screen. Since the CB2 doesn't use the standard Raspberry Pi `/boot/config.txt`, the setup is quite different.
+
+I have documented the complete process of clearing U-Boot outputs (via `armbianEnv.txt`) and setting up the logo using the `fbi` utility in a detailed guide:
+👉 **[Download: Custom Boot Logo Setup Guide (PDF - Slovak)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
 ---
 
 ## 📚 Viac informácií o knihe
