@@ -28,7 +28,6 @@ Toto je technicky najnáročnejšia časť celého projektu. Vyžaduje si precí
 ### 🐉 Fáza 4: Detaily a Finalizácia
 Nahodenie **Stealthburnera** s CAN Bus komunikáciou a oživenie **KNOMI 2**. Prvé pohyby a ladenie Input Shapera.
 
-* **Aktuálny stav:** Prebieha interné testovanie a kalibrácia high-flow extrúzneho systému v spolupráci s popredným výrobcom komponentov. (Podlieha NDA).
 ---
 
 ## English
@@ -55,6 +54,5 @@ The most technically demanding part of the project, requiring precise planning i
 ### 🐉 Phase 4: Details & Finalization
 Installing the **Stealthburner** with CAN Bus and bringing **KNOMI 2** to life. First moves and Input Shaper tuning.
 
-* **Current Status:** Internal testing and calibration of a high-flow extrusion system is underway in collaboration with a leading component manufacturer. (Subject to NDA).
 ---
 *To be continued... / Pokračovanie nabudúce...*
