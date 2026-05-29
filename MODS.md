@@ -24,7 +24,7 @@ Tento zoznam obsahuje všetky kľúčové vylepšenia, ktoré posúvajú túto t
 * **Komunikácia:** BTT SB2240 CAN Bus.
 
 ### 💻 Softvér & Úpravy OS
-* **Boot Screen:** Vlastná štartovacia obrazovka pre Armbian/Klipper (čistý štart bez systémových výpisov a logov jadra). 👉 **[Návod na nastavenie (PDF)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
+* **Boot Screen:** Vlastná štartovacia obrazovka pre Armbian/Klipper (čistý štart bez systémových výpisov a logov jadra). 👉 **[Návod na nastavenie (PDF)](https://github.com/flyer05/Bestia-Voron-2.4/tree/main/Mods/Navod_Zmena_Boot_Loga_Armbian.pdf)**
 ---
 
 ## English
@@ -47,6 +47,6 @@ Comprehensive list of modifications that define the **Beštia** build.
 * **Communication:** BTT SB2240 CAN Bus.
 
 ### 💻 Software & OS Mods
-* **Boot Screen:** Custom splash screen for Armbian/Klipper (clean boot without kernel logs and Tux penguins). 👉 **[Setup Guide (PDF - Slovak)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
+* **Boot Screen:** Custom splash screen for Armbian/Klipper (clean boot without kernel logs and Tux penguins). 👉 **[Setup Guide (PDF - Slovak)](https://github.com/flyer05/Bestia-Voron-2.4/tree/main/Mods/Navod_Zmena_Boot_Loga_Armbian.pdf)**
 ---
 *Built by FLYER 05*
