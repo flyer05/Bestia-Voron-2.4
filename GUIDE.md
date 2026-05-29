@@ -31,6 +31,7 @@ Pre maximálnu stabilitu "Beštie" som sa rozhodol nepoužívať SD kartu, ale n
 
 Celý postup čistenia U-Boot výpisov (úprava `armbianEnv.txt`) a nasadenia loga cez nástroj `fbi` som spísal do detailného dokumentu:
 👉 **[Stiahnuť: Kompletný návod na zmenu bootovacieho loga (PDF)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
+
 ---
 
 ## English: Flashing BTT CB2 to Internal eMMC
@@ -54,6 +55,7 @@ The standard Armbian boot process is cluttered with kernel logs and Tux penguins
 
 I have documented the complete process of clearing U-Boot outputs (via `armbianEnv.txt`) and setting up the logo using the `fbi` utility in a detailed guide:
 👉 **[Download: Custom Boot Logo Setup Guide (PDF - Slovak)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
+
 ---
 
 ## 📚 Viac informácií o knihe
