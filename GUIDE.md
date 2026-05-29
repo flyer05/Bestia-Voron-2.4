@@ -30,7 +30,7 @@ Pre maximálnu stabilitu "Beštie" som sa rozhodol nepoužívať SD kartu, ale n
 Štandardný štartovací proces Armbianu je plný textových výpisov jadra a obrázkov tučniakov. Pre čistý a profesionálny vzhľad "Beštie" som si systém upravil tak, aby počas bootovania zobrazoval len moje vlastné logo (splash screen). Keďže CB2 nevyužíva klasický `/boot/config.txt` ako Raspberry Pi, postup je odlišný.
 
 Celý postup čistenia U-Boot výpisov (úprava `armbianEnv.txt`) a nasadenia loga cez nástroj `fbi` som spísal do detailného dokumentu:
-👉 **[Stiahnuť: Kompletný návod na zmenu bootovacieho loga (PDF)](Navod_Zmena_Boot_Loga_Armbian.pdf)**
+👉 **[Stiahnuť: Kompletný návod na zmenu bootovacieho loga (PDF)]([Navod_Zmena_Boot_Loga_Armbian.pdf](https://github.com/flyer05/Bestia-Voron-2.4/tree/main/Mods/Navod_Zmena_Boot_Loga_Armbian.pdf))**
 
 ---
 
