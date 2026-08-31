@@ -4,12 +4,6 @@
 
 ---
 
-> 📖 **PRIPRAVOVANÁ KNIHA / UPCOMING BOOK:** > **KÓD, PLAST A SLOBODA: KOMPLETNÝ MANUÁL OPEN-SOURCE 3D TLAČE** > *(Podtitul: Ako si postaviť, oživiť a ovládnuť Voron v roku 2026)* >
-> Táto kapitola je skrátenou ukážkou z pripravovanej knihy.  
-> *© 2026 FLYER 05. Všetky práva vyhradené.*
-
----
-
 ## Slovenská verzia: Flashovanie BTT CB2 na vnútornej eMMC
 
 Pre maximálnu stabilitu "Beštie" som sa rozhodol nepoužívať SD kartu, ale naflashovať systém priamo do vnútornej pamäte (eMMC) modulu CB2. Tu je postup:
@@ -58,7 +52,7 @@ I have documented the complete process of clearing U-Boot outputs (via `armbianE
 
 ---
 
-## 📚 Viac informácií o knihe
+## 📚 Viac informácií o pripravovanej knihe
 
 Kniha **„KÓD, PLAST A SLOBODA“** vás prevedie kompletným procesom stavby moderného Voronu. Od výberu skrutiek až po pokročilé 48V architektúry a slovenské lokalizácie softvéru.
 
