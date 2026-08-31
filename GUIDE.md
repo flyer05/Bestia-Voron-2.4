@@ -55,5 +55,3 @@ I have documented the complete process of clearing U-Boot outputs (via `armbianE
 ## 📚 Viac informácií o pripravovanej knihe
 
 Kniha **„KÓD, PLAST A SLOBODA“** vás prevedie kompletným procesom stavby moderného Voronu. Od výberu skrutiek až po pokročilé 48V architektúry a slovenské lokalizácie softvéru.
-
-**Sledujte tento repozitár pre informácie o možnostiach predobjednávky!**
