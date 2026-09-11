@@ -3,25 +3,37 @@ gcode:
     {% set BED_TEMP = params.BED|default(60)|float %}
     {% set EXTRUDER_TEMP = params.EXTRUDER|default(200)|float %}
 
-    # 1. Nastavenie teplôt (bez čakania)
+    # 1. Zapnutie Nevermore filtra na začiatok tlače (80% výkon)
+    SET_FAN_SPEED FAN=nevermore SPEED=0.8
+
+    # 2. Nastavenie počiatočných teplôt (bez čakania)
     M140 S{BED_TEMP}
-    M104 S150             # Nahreje trysku na "bezpečných" 150°C pre TAP (aby sa nepretlačilo PEI)
+    M104 S150          # Bezpečná teplota trysky, aby netiekla
 
-    # 2. Homing a vyrovnanie (Home musí byť prvý)
+    # 3. Základný homing (X, Y aj Z sa zhomujú cez Cartographer)
     G28
+
+    # 4. Quad Gantry Level (vyrovnanie rámu Voronu 2.4)
     QUAD_GANTRY_LEVEL
-    G28 Z                 # Znovu zmeraj Z po vyrovnaní gantry
 
-    # 3. Čakanie na finálne teploty
-    M190 S{BED_TEMP}      # Počkaj na podložku
-    M109 S{EXTRUDER_TEMP} # Počkaj na trysku
+    # 5. Znovu zmeranie po QGL, aby bola gantry dokonale presná
+    G28 Z
 
-    # 4. "Primat" (čistiaca čiara)
+    # 6. Čakanie na finálnu teplotu podložky (dôležité pre stabilný sken pod plátom)
+    M190 S{BED_TEMP}
+
+    # 7. Vygenerovanie bed mesh na stabilne nahriatej podložke (Cartographer to zvládne bleskovo)
+    BED_MESH_CALIBRATE PROFILE=default
+    
+    # 8. Nahriatie trysky na finálnou pracovnú teplotu
+    M109 S{EXTRUDER_TEMP}
+
+    # 9. Čistiaca čiara (Purge line)
     G90
     G1 Z2.0 F3000
     G1 X5 Y5 Z0.3 F5000.0
     G1 X200.0 Y5 Z0.3 F1500.0 E15
     G1 X200.0 Y5.4 Z0.3 F5000.0
     G1 X5 Y5.4 Z0.3 F1500.0 E30
-    G92 E0                # Reset extrudera
+    G92 E0              # Reset extrudera
     G1 Z2.0 F3000
