@@ -1,17 +1,17 @@
 [gcode_macro M600]
 gcode:
-    # 1. Pozastavenie tlače
+    # 1. Pozastavenie tlače a odskok Z
     PAUSE
-    
-    # 2. Bezpečný odskok a parkovanie hlavy (aby netiekla na výtlačok)
     G91
-    G1 E-1.5 F2700        # Rýchla retrakcia, aby netiekol filament z trysky
-    G1 Z+10 F3000         # Odskok Z nahor
+    G1 E-1.5 F2700        # Rýchla retrakcia, aby netiekol filament
+    G1 Z+10 F3000         # Mierny odskok nahor
     G90
-    G1 X5 Y5 F6000        # Zaparkuje hlavu vpredu vľavo (prípadne si zmeň súradnice podľa seba)
     
-    # 3. Automatické vytiahnutie filamentu pomocou tvojho makra
+    # 2. Využitie tvojho existujúceho makra na parkovanie vpredu
+    PARK_FRONT
+    
+    # 3. Automatické vytiahnutie filamentu
     UNLOAD_FILAMENT
     
     # 4. Správa pre teba v Mainsaili
-    {action_respond_info("Tlač pozastavená: Vymeň filament, zaveď nový, spusti LOAD_FILAMENT a stlač RESUME")}
+    {action_respond_info("Tlač pozastavená: Vymeň filament, zaveď nový cez LOAD_FILAMENT a stlač RESUME")}
