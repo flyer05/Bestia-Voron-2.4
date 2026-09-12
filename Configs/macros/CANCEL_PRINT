@@ -1,6 +1,9 @@
 [gcode_macro CANCEL_PRINT]
 rename_existing: BASE_CANCEL_PRINT
 gcode:
+    # Telegram notifikácia o zrušení tlače
+    {action_respond_info("telegram: ❌ Tlač na Bestia_Voron24 bola manuálne zrušená!")}
+
     TURN_OFF_HEATERS
     CLEAR_PAUSE
     SDCARD_RESET_FILE
