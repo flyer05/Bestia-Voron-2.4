@@ -1,6 +1,9 @@
 [gcode_macro PAUSE]
 rename_existing: BASE_PAUSE
 gcode:
+    # Telegram notifikácia o pozastavení tlače
+    {action_respond_info("telegram: ⏸️ Tlač na Bestia_Voron24 bola pozastavená.")}
+
     {% set z = params.Z|default(10)|float %}
     SAVE_GCODE_STATE NAME=PAUSE_state
     BASE_PAUSE
@@ -13,6 +16,9 @@ gcode:
 [gcode_macro RESUME]
 rename_existing: BASE_RESUME
 gcode:
+    # Telegram notifikácia o pokračovaní v tlači
+    {action_respond_info("telegram: ▶️ Tlač na Bestia_Voron24 pokračuje.")}
+
     G91
     G1 E1.5 F2700
     RESTORE_GCODE_STATE NAME=PAUSE_state MOVE=1
