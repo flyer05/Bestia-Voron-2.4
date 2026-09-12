@@ -3,6 +3,9 @@ gcode:
     {% set BED_TEMP = params.BED|default(60)|float %}
     {% set EXTRUDER_TEMP = params.EXTRUDER|default(200)|float %}
 
+    # Notifikácia na Telegram, že sa začína príprava
+    {action_respond_info("telegram: 🚀 Bestia_Voron24 spúšťa prípravu na tlač! Podložka: %3.1f°C, Extrúder: %3.1f°C" % (BED_TEMP, EXTRUDER_TEMP))}
+
     # 1. Zapnutie Nevermore filtra (80% výkon)
     SET_FAN_SPEED FAN=nevermore SPEED=0.8
 
