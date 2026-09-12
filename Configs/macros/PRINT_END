@@ -1,0 +1,23 @@
+[gcode_macro END_PRINT]
+gcode:
+    # 1. Vypnutie ohrevu podložky a trysky
+    TURN_OFF_HEATERS
+    
+    # 2. Bezpečná retrakcija a odskok
+    G91
+    G1 E-2 F2700
+    G1 Z+10 F3000
+    G90
+    
+    # 3. Odparkovanie hlavy do bezpečnej pozície (napr. vpredu)
+    PARK_FRONT
+    
+    # 4. Vypnutie tlačového ventilátora
+    M107
+    
+    # 5. Necháme Nevermore dobehnúť ešte 5 minút (300 000 ms) na prečistenie komory
+    G4 P300000
+    SET_FAN_SPEED FAN=nevermore SPEED=0.0
+    
+    # 6. Vypnutie motorov
+    M84
