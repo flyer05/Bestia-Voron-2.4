@@ -1,0 +1,11 @@
+[gcode_macro CANCEL_PRINT]
+rename_existing: BASE_CANCEL_PRINT
+gcode:
+    TURN_OFF_HEATERS
+    CLEAR_PAUSE
+    SDCARD_RESET_FILE
+    BASE_CANCEL_PRINT
+    PARK_FRONT
+    M107
+    # Nevermore necháme bežať na 80% aj po zrušení, aby prečistil komoru od zápachu
+    SET_FAN_SPEED FAN=nevermore SPEED=0.8
