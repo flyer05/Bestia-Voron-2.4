@@ -4,7 +4,10 @@ gcode:
     {% set DURATION = params.DURATION|default(10)|int %} ; čas v minútach ako poistka
     
     {action_respond_info("Predhrievam podložku na %3.1f°C a komoru..." % (BED_TEMP))}
-    
+
+    # Telegram notifikácia o začiatku predohrevu
+    {action_respond_info("telegram: 🔥 Bestia_Voron24 spustila heat-soak! Podložka: %3.1f°C, čas stabilizácie: %d min." % (BED_TEMP, DURATION))}
+
     # Zapneme Nevermore na plný výkon, nech to premieša vzduch v komore
     SET_FAN_SPEED FAN=nevermore SPEED=1.0
     
