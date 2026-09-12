@@ -1,5 +1,8 @@
 [gcode_macro END_PRINT]
 gcode:
+    # Telegram notifikácia o úspešnom dokončení tlače
+    {action_respond_info("telegram: ✅ Bestia_Voron24 úspešne dokončila tlač a ochladzuje sa!")}
+
     # 1. Vypnutie ohrevu podložky a trysky
     TURN_OFF_HEATERS
     
