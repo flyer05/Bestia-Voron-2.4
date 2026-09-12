@@ -1,0 +1,16 @@
+[gcode_macro HEAT_SOAK]
+gcode:
+    {% set BED_TEMP = params.BED|default(100)|float %}
+    {% set DURATION = params.DURATION|default(10)|int %} ; čas v minútach
+    
+    {action_respond_info("Predhrievam podložku na %3.1f°C a komoru (Nevermore zapnutý)..." % (BED_TEMP))}
+    SET_FAN_SPEED FAN=nevermore SPEED=1.0
+    M140 S{BED_TEMP}
+    G32
+    PARK_CENTER
+    
+    {% for i in range(DURATION) %}
+        {action_respond_info("Heatsoak: Zostáva %d minút..." % (DURATION - i))}
+        G4 P60000
+    {% endfor %}
+    {action_respond_info("Heatsoak dokončený!")}
