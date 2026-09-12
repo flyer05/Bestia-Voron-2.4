@@ -1,16 +1,24 @@
 [gcode_macro HEAT_SOAK]
 gcode:
     {% set BED_TEMP = params.BED|default(100)|float %}
-    {% set DURATION = params.DURATION|default(10)|int %} ; čas v minútach
+    {% set DURATION = params.DURATION|default(10)|int %} ; čas v minútach ako poistka
     
-    {action_respond_info("Predhrievam podložku na %3.1f°C a komoru (Nevermore zapnutý)..." % (BED_TEMP))}
+    {action_respond_info("Predhrievam podložku na %3.1f°C a komoru..." % (BED_TEMP))}
+    
+    # Zapneme Nevermore na plný výkon, nech to premieša vzduch v komore
     SET_FAN_SPEED FAN=nevermore SPEED=1.0
-    M140 S{BED_TEMP}
+    
+    # Nastavíme teplotu podložky a počkáme, kým sa zohreje
+    M190 S{BED_TEMP}
+    
+    # Spustíme základný homing a qgl, aby hlava nezavadzala
     G32
     PARK_CENTER
     
+    # Časový interval na stabilizáciu komory
     {% for i in range(DURATION) %}
-        {action_respond_info("Heatsoak: Zostáva %d minút..." % (DURATION - i))}
+        {action_respond_info("Heatsoak: Zostáva stabilizovať %d minút..." % (DURATION - i))}
         G4 P60000
     {% endfor %}
-    {action_respond_info("Heatsoak dokončený!")}
+    
+    {action_respond_info("Heatsoak dokončený, komora je pripravená!")}
