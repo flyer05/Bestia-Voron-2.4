@@ -1,0 +1,19 @@
+[gcode_macro PAUSE]
+rename_existing: BASE_PAUSE
+gcode:
+    {% set z = params.Z|default(10)|float %}
+    SAVE_GCODE_STATE NAME=PAUSE_state
+    BASE_PAUSE
+    G91
+    G1 E-1.5 F2700
+    G1 Z{z} F3000
+    G90
+    PARK_FRONT
+
+[gcode_macro RESUME]
+rename_existing: BASE_RESUME
+gcode:
+    G91
+    G1 E1.5 F2700
+    RESTORE_GCODE_STATE NAME=PAUSE_state MOVE=1
+    BASE_RESUME
